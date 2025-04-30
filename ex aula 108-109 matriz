@@ -13,14 +13,12 @@ int main()
           scanf("%d", &mat1[i][j]);
       }
   }
-  
   for (i = 0; i < 3; i++){
       for(j = 0; j < 3; j++){
           printf("%d ", mat1[i][j]);
       } 
       printf("\n");
   }
-  
     return 0;
 }
 -------------------------------------------------------------------------------------
@@ -37,14 +35,12 @@ int main()
       for(j = 0; j < 3; j++){
           mat3[i][j] = mat1[i][j] + mat2[i][j];
       }
-  }
-  
+  } 
   for (i = 0; i < 3; i++){
       for(j = 0; j < 3; j++){
           printf("%2d ", mat3[i][j]);// coloca-se o 2 e imprimi como se tivesse dois algarismos
       } 
       printf("\n");
   }
-  
     return 0;
 }
