@@ -69,3 +69,34 @@ int main()
   }
     return 0;
 }
+--------------------------------------------------------------------------------
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{ 
+  int i, vetor1[10], vetor2[10];
+  
+  for(i = 0; i < 10; i++){
+      printf("Digite um valor para preencher a posicao %d do vetor: ", i);
+      scanf("%d", &vetor1[i]);
+  }
+
+  for(i = 0; i < 10; i++){
+      vetor2[i] = vetor1[i] * vetor1[i];
+  }
+
+    for(i = 0; i < 10; i++){
+        printf("%d ", vetor1[i]);
+        
+    }
+    
+    printf("\n ");
+    
+    for(i = 0; i < 10; i++){
+        printf("%d ", vetor2[i]); 
+    }
+    
+    return 0;
+}
