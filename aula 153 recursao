@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+//imprimir os numeros de n até 0 
 void imprimir(int x){
     if(x == 0)
         printf("%d ", x);
